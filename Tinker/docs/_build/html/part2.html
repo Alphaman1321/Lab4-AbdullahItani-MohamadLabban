@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>part2 Module &#8212; SchoolApp  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="SchoolApp documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-part2">
+<span id="part2-module"></span><h1>part2 Module<a class="headerlink" href="#module-part2" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="part2.SchoolApp">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">part2.</span></span><span class="sig-name descname"><span class="pre">SchoolApp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.add_course">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.add_course" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a course to the system.</p>
+<p>Validates the input fields, creates a Course object, and appends it to the courses list. Updates the course dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.add_instructor">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.add_instructor" title="Link to this definition">¶</a></dt>
+<dd><p>Adds an instructor to the system.</p>
+<p>Validates the input fields, creates an Instructor object, and appends it to the instructors list. Updates the instructor dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.add_student">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.add_student" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a student to the system.</p>
+<p>Validates the input fields, creates a Student object, and appends it to the students list. Updates the student dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.assign_instructor_to_course">
+<span class="sig-name descname"><span class="pre">assign_instructor_to_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.assign_instructor_to_course" title="Link to this definition">¶</a></dt>
+<dd><p>Assigns a selected instructor to a selected course.</p>
+<p>Checks if the selected instructor and course are valid, assigns the instructor to the course, and updates the instructor dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.clear_entry_fields">
+<span class="sig-name descname"><span class="pre">clear_entry_fields</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.clear_entry_fields" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.clear_treeview">
+<span class="sig-name descname"><span class="pre">clear_treeview</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.clear_treeview" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.delete_record">
+<span class="sig-name descname"><span class="pre">delete_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.delete_record" title="Link to this definition">¶</a></dt>
+<dd><p>Deletes the selected record in the Treeview.</p>
+<p>Removes the selected student, instructor, or course from the lists and updates the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.edit_record">
+<span class="sig-name descname"><span class="pre">edit_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.edit_record" title="Link to this definition">¶</a></dt>
+<dd><p>Edits the selected record in the Treeview.</p>
+<p>Opens an appropriate editing interface based on the selected record type (Student, Instructor, Course).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.get_selected_item">
+<span class="sig-name descname"><span class="pre">get_selected_item</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.get_selected_item" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.register_student_to_course">
+<span class="sig-name descname"><span class="pre">register_student_to_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.register_student_to_course" title="Link to this definition">¶</a></dt>
+<dd><p>Registers a selected student to a selected course.</p>
+<p>Checks if the selected student and course are valid, adds the registration, and updates the student dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.save_edited_student">
+<span class="sig-name descname"><span class="pre">save_edited_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.save_edited_student" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.search_records">
+<span class="sig-name descname"><span class="pre">search_records</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.search_records" title="Link to this definition">¶</a></dt>
+<dd><p>Searches for records based on the search term and type.</p>
+<p>Updates the Treeview to display only matching records.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_courses">
+<span class="sig-name descname"><span class="pre">show_courses</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_courses" title="Link to this definition">¶</a></dt>
+<dd><p>Displays the list of courses in the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_filtered_courses">
+<span class="sig-name descname"><span class="pre">show_filtered_courses</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">courses</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_filtered_courses" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_filtered_instructors">
+<span class="sig-name descname"><span class="pre">show_filtered_instructors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructors</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_filtered_instructors" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_filtered_students">
+<span class="sig-name descname"><span class="pre">show_filtered_students</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">students</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_filtered_students" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_instructors">
+<span class="sig-name descname"><span class="pre">show_instructors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_instructors" title="Link to this definition">¶</a></dt>
+<dd><p>Displays the list of instructors in the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.show_students">
+<span class="sig-name descname"><span class="pre">show_students</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.show_students" title="Link to this definition">¶</a></dt>
+<dd><p>Displays the list of students in the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.update_course_dropdown">
+<span class="sig-name descname"><span class="pre">update_course_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.update_course_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the course dropdown with the current list of courses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.update_instructor_dropdown">
+<span class="sig-name descname"><span class="pre">update_instructor_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.update_instructor_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the instructor dropdown with the current list of instructors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="part2.SchoolApp.update_student_dropdown">
+<span class="sig-name descname"><span class="pre">update_student_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#part2.SchoolApp.update_student_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the student dropdown with the current list of students.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="schoolapp-class">
+<h1>Schoolapp Class<a class="headerlink" href="#schoolapp-class" title="Link to this heading">¶</a></h1>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">SchoolApp</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">part2 Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#part2.SchoolApp"><code class="docutils literal notranslate"><span class="pre">SchoolApp</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#schoolapp-class">Schoolapp Class</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">SchoolApp documentation</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Mohamad Labban.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/part2.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
